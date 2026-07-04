@@ -97,9 +97,32 @@
     text-decoration: none;
     font-weight: 600;
   }
+  /* Adicione isso ao seu arquivo CSS ou dentro da tag <style> */
+
+#simulado-container {
+    background-color: #ffffff; /* Fundo branco igual às disciplinas */
+    border: 2px solid #e2e8f0; /* Borda leve cinza */
+    border-radius: 16px;       /* Bordas arredondadas */
+    padding: 30px;             /* Espaçamento interno */
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1); /* Sombra profissional */
+    max-width: 800px;
+    margin: 20px auto;         /* Centraliza a caixa na tela */
+}
+
+/* Para o enunciado dentro da caixa */
+.enunciado-box {
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+    color: #334155;
+    background: #f8fafc;       /* Leve destaque no fundo do enunciado */
+    padding: 15px;
+    border-radius: 8px;
+}
 </style>
   </head>
   <body>
+
+    
     <div class="container">
       <header>
         <!-- O JavaScript vai preencher esse contador automaticamente -->
@@ -195,6 +218,9 @@
           ],
           correta: 1,
         },
+
+        
+      
         {
           disciplina: "Matemática",
           enunciado:
@@ -390,8 +416,1202 @@
             "Comprar uma televisão nova para a sala.",
           ],
           correta: 2,
-        }
+        },
+
+        // 1. BANCO DE QUESTÕES COMPLETO (História, Matemática, Linguagens + Ciências da Natureza)
+      
+{
+          disciplina: "Biologia",
+          enunciado: "O ciclo do nitrogênio é fundamental para a vida, pois o elemento é um componente essencial das proteínas e ácidos nucleicos. No entanto, a maior parte do nitrogênio atmosférico (N2) não pode ser assimilada diretamente pela maioria dos seres vivos. A fixação desse nitrogênio em formas utilizáveis pelas plantas é realizada principalmente por:",
+          alternativas: [
+            "Fungos decompositores em solos ácidos.",
+            "Bactérias nitrificantes presentes nas raízes de leguminosas.",
+            "Processos de fotossíntese em cianobactérias marinhas.",
+            "Ação direta dos raios ultravioleta nas folhas.",
+            "Respiração celular das células vegetais.",
+          ],
+          correta: 1,
+},
+      
+        {
+          disciplina: "Química",
+          enunciado: "O tratamento de água para abastecimento público envolve várias etapas, sendo uma delas a adição de coagulantes (como o sulfato de alumínio) para aglutinar impurezas. Esse processo é fundamentado no fenômeno de:",
+          alternativas: [
+            "Destilação fracionada.",
+            "Decantação forçada.",
+            "Floculação, seguida de decantação.",
+            "Sublimação de partículas sólidas.",
+            "Evaporação acelerada.",
+          ],
+          correta: 2,
+        },
+        {
+          disciplina: "Física",
+          enunciado: "Um veículo se desloca em uma estrada plana e retilínea. Ao frear bruscamente, os passageiros são projetados para frente. Esse fenômeno é explicado pela:",
+          alternativas: [
+            "Primeira Lei de Newton (Inércia).",
+            "Segunda Lei de Newton (Princípio Fundamental da Dinâmica).",
+            "Terceira Lei de Newton (Ação e Reação).",
+            "Lei da Conservação da Energia Mecânica.",
+            "Lei da Gravitação Universal.",
+          ],
+          correta: 0,
+        },
+        {
+          disciplina: "Biologia",
+          enunciado: "A teoria da seleção natural, proposta por Charles Darwin, afirma que os indivíduos mais adaptados ao seu meio ambiente têm maiores chances de sobreviver e se reproduzir. Esse conceito pressupõe a existência de:",
+          alternativas: [
+            "Mutação dirigida para a necessidade do ambiente.",
+            "Variabilidade genética na população.",
+            "Capacidade de mudança do fenótipo durante a vida do indivíduo.",
+            "Esforço consciente dos seres vivos para se adaptar.",
+            "Imutabilidade das espécies ao longo das gerações.",
+          ],
+          correta: 1,
+        },
+        {
+          disciplina: "Química",
+          enunciado: "A chuva ácida é um problema ambiental causado pela emissão de gases como SO2 e NO2 na atmosfera. Esses gases reagem com a água da chuva, formando ácidos que diminuem o pH. A principal fonte de emissão desses gases em centros urbanos é:",
+          alternativas: [
+            "A queima de combustíveis fósseis em veículos e indústrias.",
+            "A decomposição de resíduos orgânicos em aterros sanitários.",
+            "O aumento da fotossíntese em áreas urbanas.",
+            "A liberação de oxigênio pelas plantas.",
+            "O uso de fertilizantes químicos em jardins públicos.",
+          ],
+          correta: 0,
+        },
+        {
+          disciplina: "Física",
+          enunciado: "Em uma usina hidrelétrica, a energia potencial gravitacional da água armazenada na represa é convertida em energia cinética, que por sua vez aciona turbinas ligadas a geradores. O processo final de transformação energética é:",
+          alternativas: [
+            "Energia cinética em energia térmica.",
+            "Energia mecânica em energia elétrica.",
+            "Energia térmica em energia nuclear.",
+            "Energia química em energia mecânica.",
+            "Energia solar em energia cinética.",
+          ],
+          correta: 1,
+        },
+        {
+          disciplina: "Biologia",
+          enunciado: "A vacinação é uma medida de saúde pública eficaz na prevenção de doenças infectocontagiosas. O princípio biológico básico que justifica a vacinação é:",
+          alternativas: [
+            "A indução da resposta imune primária com memória imunológica.",
+            "A administração direta de anticorpos prontos pelo organismo.",
+            "A destruição dos agentes causadores da doença por antibióticos.",
+            "A neutralização imediata das toxinas pelos glóbulos vermelhos.",
+            "A redução da taxa de mutação do patógeno no ambiente.",
+          ],
+          correta: 0,
+        },
+        {
+          disciplina: "Química",
+          enunciado: "O sabão é um agente tensoativo que facilita a remoção de gorduras em superfícies ou tecidos. Essa ação ocorre porque a molécula de sabão apresenta:",
+          alternativas: [
+            "Apenas uma cadeia hidrofóbica longa.",
+            "Apenas uma região polar altamente solúvel em óleos.",
+            "Uma parte apolar que interage com a gordura e uma parte polar que interage com a água.",
+            "Uma carga negativa que repele todas as moléculas de sujeira.",
+            "Uma estrutura inerte que não reage nem com a água nem com o óleo.",
+          ],
+          correta: 2,
+        },
+        {
+          disciplina: "Física",
+          enunciado: "A transmissão de calor pode ocorrer por condução, convecção ou irradiação. A sensação de calor que sentimos ao estar próximos a uma fogueira, sem encostar nela, deve-se principalmente ao processo de:",
+          alternativas: [
+            "Condução térmica.",
+            "Convecção térmica.",
+            "Irradiação térmica.",
+            "Refração térmica.",
+            "Difusão molecular.",
+          ],
+          correta: 2,
+        },
+        {
+          disciplina: "Biologia",
+          enunciado: "Os organismos vivos precisam de energia para manter seu metabolismo. A principal molécula responsável pelo armazenamento e fornecimento imediato de energia para as reações celulares é:",
+          alternativas: [
+            "O DNA (Ácido Desoxirribonucleico).",
+            "A glicose (açúcar simples).",
+            "O ATP (Adenosina Trifosfato).",
+            "O colesterol (lipídio estrutural).",
+            "A hemoglobina (proteína transportadora).",
+          ],
+          correta: 2,
+        },
+        // 1. BANCO DE QUESTÕES COMPLETO (História, Matemática, Linguagens + Ciências da Natureza)
+      
+        // ... (suas questões anteriores permanecem aqui)
+
+        // NOVAS QUESTÕES - CIÊNCIAS DA NATUREZA
+        {
+          disciplina: "Biologia",
+          enunciado: "O ciclo do nitrogênio é fundamental para a vida, pois o elemento é um componente essencial das proteínas e ácidos nucleicos. No entanto, a maior parte do nitrogênio atmosférico (N2) não pode ser assimilada diretamente pela maioria dos seres vivos. A fixação desse nitrogênio em formas utilizáveis pelas plantas é realizada principalmente por:",
+          alternativas: [
+            "Fungos decompositores em solos ácidos.",
+            "Bactérias nitrificantes presentes nas raízes de leguminosas.",
+            "Processos de fotossíntese em cianobactérias marinhas.",
+            "Ação direta dos raios ultravioleta nas folhas.",
+            "Respiração celular das células vegetais.",
+          ],
+          correta: 1,
+        },
+        {
+          disciplina: "Química",
+          enunciado: "O tratamento de água para abastecimento público envolve várias etapas, sendo uma delas a adição de coagulantes (como o sulfato de alumínio) para aglutinar impurezas. Esse processo é fundamentado no fenômeno de:",
+          alternativas: [
+            "Destilação fracionada.",
+            "Decantação forçada.",
+            "Floculação, seguida de decantação.",
+            "Sublimação de partículas sólidas.",
+            "Evaporação acelerada.",
+          ],
+          correta: 2,
+        },
+        {
+          disciplina: "Física",
+          enunciado: "Um veículo se desloca em uma estrada plana e retilínea. Ao frear bruscamente, os passageiros são projetados para frente. Esse fenômeno é explicado pela:",
+          alternativas: [
+            "Primeira Lei de Newton (Inércia).",
+            "Segunda Lei de Newton (Princípio Fundamental da Dinâmica).",
+            "Terceira Lei de Newton (Ação e Reação).",
+            "Lei da Conservação da Energia Mecânica.",
+            "Lei da Gravitação Universal.",
+          ],
+          correta: 0,
+        },
+        {
+          disciplina: "Biologia",
+          enunciado: "A teoria da seleção natural, proposta por Charles Darwin, afirma que os indivíduos mais adaptados ao seu meio ambiente têm maiores chances de sobreviver e se reproduzir. Esse conceito pressupõe a existência de:",
+          alternativas: [
+            "Mutação dirigida para a necessidade do ambiente.",
+            "Variabilidade genética na população.",
+            "Capacidade de mudança do fenótipo durante a vida do indivíduo.",
+            "Esforço consciente dos seres vivos para se adaptar.",
+            "Imutabilidade das espécies ao longo das gerações.",
+          ],
+          correta: 1,
+        },
+        {
+          disciplina: "Química",
+          enunciado: "A chuva ácida é um problema ambiental causado pela emissão de gases como SO2 e NO2 na atmosfera. Esses gases reagem com a água da chuva, formando ácidos que diminuem o pH. A principal fonte de emissão desses gases em centros urbanos é:",
+          alternativas: [
+            "A queima de combustíveis fósseis em veículos e indústrias.",
+            "A decomposição de resíduos orgânicos em aterros sanitários.",
+            "O aumento da fotossíntese em áreas urbanas.",
+            "A liberação de oxigênio pelas plantas.",
+            "O uso de fertilizantes químicos em jardins públicos.",
+          ],
+          correta: 0,
+        },
+        {
+          disciplina: "Física",
+          enunciado: "Em uma usina hidrelétrica, a energia potencial gravitacional da água armazenada na represa é convertida em energia cinética, que por sua vez aciona turbinas ligadas a geradores. O processo final de transformação energética é:",
+          alternativas: [
+            "Energia cinética em energia térmica.",
+            "Energia mecânica em energia elétrica.",
+            "Energia térmica em energia nuclear.",
+            "Energia química em energia mecânica.",
+            "Energia solar em energia cinética.",
+          ],
+          correta: 1,
+        },
+        {
+          disciplina: "Biologia",
+          enunciado: "A vacinação é uma medida de saúde pública eficaz na prevenção de doenças infectocontagiosas. O princípio biológico básico que justifica a vacinação é:",
+          alternativas: [
+            "A indução da resposta imune primária com memória imunológica.",
+            "A administração direta de anticorpos prontos pelo organismo.",
+            "A destruição dos agentes causadores da doença por antibióticos.",
+            "A neutralização imediata das toxinas pelos glóbulos vermelhos.",
+            "A redução da taxa de mutação do patógeno no ambiente.",
+          ],
+          correta: 0,
+        },
+        {
+          disciplina: "Química",
+          enunciado: "O sabão é um agente tensoativo que facilita a remoção de gorduras em superfícies ou tecidos. Essa ação ocorre porque a molécula de sabão apresenta:",
+          alternativas: [
+            "Apenas uma cadeia hidrofóbica longa.",
+            "Apenas uma região polar altamente solúvel em óleos.",
+            "Uma parte apolar que interage com a gordura e uma parte polar que interage com a água.",
+            "Uma carga negativa que repele todas as moléculas de sujeira.",
+            "Uma estrutura inerte que não reage nem com a água nem com o óleo.",
+          ],
+          correta: 2,
+        },
+        {
+          disciplina: "Física",
+          enunciado: "A transmissão de calor pode ocorrer por condução, convecção ou irradiação. A sensação de calor que sentimos ao estar próximos a uma fogueira, sem encostar nela, deve-se principalmente ao processo de:",
+          alternativas: [
+            "Condução térmica.",
+            "Convecção térmica.",
+            "Irradiação térmica.",
+            "Refração térmica.",
+            "Difusão molecular.",
+          ],
+          correta: 2,
+        },
+        {
+          disciplina: "Biologia",
+          enunciado: "Os organismos vivos precisam de energia para manter seu metabolismo. A principal molécula responsável pelo armazenamento e fornecimento imediato de energia para as reações celulares é:",
+          alternativas: [
+            "O DNA (Ácido Desoxirribonucleico).",
+            "A glicose (açúcar simples).",
+            "O ATP (Adenosina Trifosfato).",
+            "O colesterol (lipídio estrutural).",
+            "A hemoglobina (proteína transportadora).",
+          ],
+          correta: 2,
+        },
+        {
+          disciplina: "Inglês - Interpretação",
+          enunciado: "No texto publicitário: 'We are committed to reducing our carbon footprint by 50% by 2030'. O termo 'committed' indica que a empresa está:",
+          alternativas: [
+            "Cometendo um erro grave de planejamento.",
+            "Obrigada por lei a fechar suas fábricas.",
+            "Comprometida/empenhada em atingir a meta.",
+            "Confusa sobre os prazos estabelecidos.",
+            "Cancelando todos os investimentos ambientais.",
+          ],
+          correta: 2,
+        },
+        {
+          disciplina: "Inglês - Gramática",
+          enunciado: "Na frase 'If we had known about the traffic, we would have left earlier', qual é a estrutura gramatical utilizada?",
+          alternativas: [
+            "First Conditional (probabilidade futura).",
+            "Zero Conditional (fatos científicos).",
+            "Third Conditional (hipótese sobre o passado).",
+            "Present Continuous (ação em andamento).",
+            "Passive Voice (voz passiva).",
+          ],
+          correta: 2,
+        },
+        {
+          disciplina: "Inglês - Vocabulário (Falsos Cognatos)",
+          enunciado: "A palavra 'pretend' em inglês é um clássico falso cognato. Se alguém diz 'I pretend to travel', a tradução correta é:",
+          alternativas: [
+            "Eu pretendo viajar.",
+            "Eu finjo viajar.",
+            "Eu preciso viajar.",
+            "Eu gosto de viajar.",
+            "Eu estou planejando viajar agora.",
+          ],
+          correta: 1,
+        },
+        {
+          disciplina: "Inglês - Conectores",
+          enunciado: "Qual conector deve ser usado para expressar oposição em: 'The project is expensive, __________ it is very efficient'?",
+          alternativas: [
+            "Moreover.",
+            "Therefore.",
+            "However.",
+            "Besides.",
+            "So.",
+          ],
+          correta: 2,
+        },
+        {
+          disciplina: "Inglês - Interpretação",
+          enunciado: "Leia: 'Although the weather was bad, the concert went on as planned'. O termo 'Although' introduz uma ideia de:",
+          alternativas: [
+            "Conclusão.",
+            "Adição.",
+            "Condição.",
+            "Concessão (contraste).",
+            "Causa.",
+          ],
+          correta: 3,
+        },
+        {
+          disciplina: "Espanhol - Vocabulário (Falsos Cognatos)",
+          enunciado: "Em espanhol, a palavra 'embarazada' é um falso cognato. O que significa uma mulher estar 'embarazada'?",
+          alternativas: [
+            "Que está envergonhada.",
+            "Que está grávida.",
+            "Que está cansada.",
+            "Que está confusa.",
+            "Que está com fome.",
+          ],
+          correta: 1,
+        },
+        {
+          disciplina: "Espanhol - Interpretação",
+          enunciado: "No trecho 'Mañana iremos al cine', o advérbio 'mañana' refere-se a:",
+          alternativas: [
+            "Hoje.",
+            "A tarde.",
+            "O dia seguinte (amanhã).",
+            "A noite.",
+            "Nunca.",
+          ],
+          correta: 2,
+        },
+        {
+          disciplina: "Espanhol - Gramática",
+          enunciado: "Qual é a tradução correta para a frase 'O menino joga futebol'?",
+          alternativas: [
+            "El niño juega fútbol.",
+            "El chico tira fútbol.",
+            "El muchacho juega al fútbol.",
+            "El niño juega a la pelota.",
+            "El niño lanza fútbol.",
+          ],
+          correta: 0,
+        },
+        {
+          disciplina: "Espanhol - Conectores",
+          enunciado: "O que indica o conector 'pero' na frase 'Quiero ir al cine, pero no tengo dinero'?",
+          alternativas: [
+            "Uma causa.",
+            "Uma consequência.",
+            "Uma condição.",
+            "Uma oposição (adversativa).",
+            "Uma finalidade.",
+          ],
+          correta: 3,
+        },
+        {
+          disciplina: "Espanhol - Vocabulário",
+          enunciado: "Como se diz 'óculos' em espanhol?",
+          alternativas: [
+            "Ojos.",
+            "Anteojos / Gafas.",
+            "Espejos.",
+            "Mirada.",
+            "Vidrios.",
+          ],
+          correta: 1,
+        },
+        // MATEMÁTICA E NATUREZA (20 NOVAS)
+        {
+          disciplina: "Matemática - Razão e Proporção",
+          enunciado: "Se uma torneira enche um tanque de 500 litros em 20 minutos, quanto tempo levará para encher um tanque de 1250 litros?",
+          alternativas: ["30 minutos", "40 minutos", "50 minutos", "60 minutos", "70 minutos"],
+          correta: 2,
+        },
+        {
+          disciplina: "Matemática - Geometria",
+          enunciado: "Qual é a área de um círculo cujo raio mede 10 cm? (Use π = 3,14)",
+          alternativas: ["31,4 cm²", "62,8 cm²", "314 cm²", "100 cm²", "3140 cm²"],
+          correta: 2,
+        },
+        {
+          disciplina: "Matemática - Estatística",
+          enunciado: "Qual é a média aritmética das notas: 7, 8, 9, 6 e 5?",
+          alternativas: ["6,5", "7,0", "7,5", "8,0", "6,0"],
+          correta: 1,
+        },
+        {
+          disciplina: "Matemática - Porcentagem",
+          enunciado: "Um produto custava R$ 200,00 e sofreu um aumento de 15%. Qual o novo valor?",
+          alternativas: ["R$ 215,00", "R$ 220,00", "R$ 230,00", "R$ 250,00", "R$ 210,00"],
+          correta: 2,
+        },
+        {
+          disciplina: "Matemática - Função",
+          enunciado: "Dada a função f(x) = 2x + 5, qual o valor de f(3)?",
+          alternativas: ["8", "10", "11", "13", "15"],
+          correta: 2,
+        },
+        {
+          disciplina: "Física - Óptica",
+          enunciado: "O fenômeno responsável pela formação do arco-íris ao passar a luz solar por gotículas de água é:",
+          alternativas: ["Refração e dispersão", "Reflexão total", "Difração", "Polarização", "Interferência"],
+          correta: 0,
+        },
+        {
+          disciplina: "Física - Termodinâmica",
+          enunciado: "A transferência de calor que ocorre através do vácuo, como o calor do Sol chegando à Terra, é:",
+          alternativas: ["Condução", "Convecção", "Irradiação", "Dilatação", "Indução"],
+          correta: 2,
+        },
+        {
+          disciplina: "Química - Estequiometria",
+          enunciado: "Na reação H2 + 1/2 O2 -> H2O, quantos mols de H2 são necessários para produzir 2 mols de H2O?",
+          alternativas: ["0,5 mol", "1 mol", "2 mols", "3 mols", "4 mols"],
+          correta: 2,
+        },
+        {
+          disciplina: "Biologia - Genética",
+          enunciado: "A primeira lei de Mendel afirma que os fatores se separam durante a formação dos gametas. Isso ocorre em qual processo?",
+          alternativas: ["Mitose", "Meiose", "Fecundação", "Clivagem", "Transcrição"],
+          correta: 1,
+        },
+        {
+          disciplina: "Biologia - Botânica",
+          enunciado: "Qual a função dos estômatos nas folhas das plantas?",
+          alternativas: ["Absorção de água", "Fotossíntese", "Trocas gasosas", "Fixação de nitrogênio", "Proteção mecânica"],
+          correta: 2,
+        },
+        {
+          disciplina: "Química - Tabela Periódica",
+          enunciado: "O elemento químico mais abundante na crosta terrestre é:",
+          alternativas: ["Hidrogênio", "Oxigênio", "Ferro", "Carbono", "Silício"],
+          correta: 1,
+        },
+        {
+          disciplina: "Física - Eletricidade",
+          enunciado: "Qual a unidade de medida de potência elétrica no Sistema Internacional?",
+          alternativas: ["Volt", "Ampère", "Ohm", "Watt", "Joule"],
+          correta: 3,
+        },
+        {
+          disciplina: "Biologia - Ecologia",
+          enunciado: "O fenômeno do aquecimento global é potencializado pelo aumento de qual gás na atmosfera?",
+          alternativas: ["Oxigênio", "Nitrogênio", "Dióxido de Carbono", "Argônio", "Hélio"],
+          correta: 2,
+        },
+        {
+          disciplina: "Química - Soluções",
+          enunciado: "O que caracteriza uma solução saturada?",
+          alternativas: ["Contém menos soluto que o limite", "Contém a quantidade máxima de soluto permitida", "Contém mais soluto que o limite", "É puramente um solvente", "Não apresenta soluto"],
+          correta: 1,
+        },
+        {
+          disciplina: "Matemática - Probabilidade",
+          enunciado: "Ao lançar um dado comum, qual a chance de sair o número 5?",
+          alternativas: ["1/2", "1/3", "1/6", "5/6", "1/5"],
+          correta: 2,
+        },
+        {
+          disciplina: "Matemática - Geometria",
+          enunciado: "Quanto mede a soma dos ângulos internos de um triângulo?",
+          alternativas: ["90º", "180º", "270º", "360º", "120º"],
+          correta: 1,
+        },
+        {
+          disciplina: "Biologia - Evolução",
+          enunciado: "A teoria de Lamarck baseia-se em dois princípios: uso/desuso e:",
+          alternativas: ["Seleção natural", "Transmissão dos caracteres adquiridos", "Deriva genética", "Mutação", "Equilíbrio Hardy-Weinberg"],
+          correta: 1,
+        },
+        {
+          disciplina: "Química - Átomos",
+          enunciado: "O número atômico de um átomo representa a quantidade de:",
+          alternativas: ["Nêutrons", "Elétrons", "Prótons", "Massa atômica", "Isótopos"],
+          correta: 2,
+        },
+        {
+          disciplina: "Física - Mecânica",
+          enunciado: "Qual a fórmula da energia cinética?",
+          alternativas: ["m.g.h", "m.a", "m.v²/2", "f.d", "q.v"],
+          correta: 2,
+        },
+        {
+          disciplina: "Matemática - Álgebra",
+          enunciado: "Qual o valor de x em: 2x + 10 = 20?",
+          alternativas: ["2", "3", "4", "5", "10"],
+          correta: 3,
+        },
+        // MAIS 20 QUESTÕES DE CIÊNCIAS HUMANAS
+        {
+          disciplina: "História - Brasil Colônia",
+          enunciado: "O sistema de Capitanias Hereditárias, implementado pela Coroa Portuguesa em 1534, visava:",
+          alternativas: ["Expandir o protestantismo.", "Povoar e defender o território com custo reduzido para a Coroa.", "Escravizar apenas os colonos europeus.", "Criar uma democracia parlamentar.", "Impedir a exploração de pau-brasil."],
+          correta: 1,
+        },
+        {
+          disciplina: "História - Antiguidade",
+          enunciado: "A democracia em Atenas era considerada direta. Isso significa que:",
+          alternativas: ["O voto era secreto e universal.", "Os cidadãos participavam diretamente das decisões na Ágora.", "Apenas o rei tomava decisões.", "O poder era dos militares.", "As decisões eram tomadas apenas pelos filósofos."],
+          correta: 1,
+        },
+        {
+          disciplina: "Geografia - Relevo",
+          enunciado: "Qual é a principal força externa (agente exógeno) responsável pelo modelado do relevo através da erosão?",
+          alternativas: ["Vulcanismo.", "Tectonismo.", "Ação das águas e ventos.", "Movimento de rotação.", "Gravidade lunar."],
+          correta: 2,
+        },
+        {
+          disciplina: "Sociologia - Trabalho",
+          enunciado: "Segundo Karl Marx, o conceito de 'mais-valia' refere-se a:",
+          alternativas: ["O lucro obtido pelo trabalhador.", "A diferença entre o valor produzido pelo trabalho e o salário pago.", "A taxa de juros bancários.", "O custo da matéria-prima.", "O valor das máquinas."],
+          correta: 1,
+        },
+        {
+          disciplina: "Filosofia - Ética",
+          enunciado: "O imperativo categórico de Immanuel Kant defende que:",
+          alternativas: ["Devemos agir apenas por interesse.", "Devemos agir de modo que nossa ação possa se tornar uma lei universal.", "A felicidade é o único fim.", "Não existem regras morais.", "A obediência aos pais é absoluta."],
+          correta: 1,
+        },
+        {
+          disciplina: "História - Contemporânea",
+          enunciado: "O Tratado de Versalhes, após a Primeira Guerra Mundial, impôs duras sanções à:",
+          alternativas: ["França.", "Inglaterra.", "Alemanha.", "Itália.", "Rússia."],
+          correta: 2,
+        },
+        {
+          disciplina: "Geografia - Clima",
+          enunciado: "O fenômeno climático caracterizado pelo aquecimento anormal das águas do Pacífico é chamado de:",
+          alternativas: ["La Niña.", "El Niño.", "Efeito Estufa.", "Inversão Térmica.", "Corrente do Golfo."],
+          correta: 1,
+        },
+        {
+          disciplina: "Sociologia - Estado",
+          enunciado: "Para Max Weber, o Estado detém o monopólio do:",
+          alternativas: ["Uso legítimo da força física.", "Comércio internacional.", "Direito de imprimir dinheiro.", "Controle da educação privada.", "Poder de decidir a religião."],
+          correta: 0,
+        },
+        {
+          disciplina: "História - Brasil Império",
+          enunciado: "A 'Lei Áurea', assinada em 1888, foi o marco final da:",
+          alternativas: ["Proclamação da República.", "Independência do Brasil.", "Abolição da escravidão.", "Guerra do Paraguai.", "Revolução Farroupilha."],
+          correta: 2,
+        },
+        {
+          disciplina: "Geografia - Urbanização",
+          enunciado: "A 'conurbação' é um fenômeno urbano que ocorre quando:",
+          alternativas: ["Cidades vizinhas se expandem e seus limites físicos se unem.", "Uma cidade é planejada do zero.", "A população rural aumenta.", "As indústrias saem da cidade.", "Ocorre a gentrificação."],
+          correta: 0,
+        },
+        {
+          disciplina: "Filosofia - Conhecimento",
+          enunciado: "A frase 'Penso, logo existo' é o pilar fundamental do método cartesiano de:",
+          alternativas: ["Sócrates.", "Platão.", "René Descartes.", "Nietzsche.", "Foucault."],
+          correta: 2,
+        },
+        {
+          disciplina: "História - Renascimento",
+          enunciado: "O antropocentrismo, marca do Renascimento, colocou o ser humano como:",
+          alternativas: ["O centro de todas as preocupações e medidas.", "Um ser subordinado totalmente ao clero.", "Inexistente diante da natureza.", "Um escravo dos deuses.", "Apenas uma peça do sistema feudal."],
+          correta: 0,
+        },
+        {
+          disciplina: "Geografia - Fontes de Energia",
+          enunciado: "Qual das fontes de energia abaixo é considerada não renovável?",
+          alternativas: ["Solar.", "Eólica.", "Petróleo.", "Biomassa.", "Hidrelétrica."],
+          correta: 2,
+        },
+        {
+          disciplina: "Sociologia - Socialização",
+          enunciado: "A família, a escola e os amigos são considerados agentes de:",
+          alternativas: ["Socialização.", "Produção de bens.", "Distribuição de renda.", "Eleição política.", "Medicina preventiva."],
+          correta: 0,
+        },
+        {
+          disciplina: "História - Idade Média",
+          enunciado: "O sistema de vassalagem baseava-se na troca de:",
+          alternativas: ["Moeda por mercadoria.", "Terra (feudo) por lealdade e proteção militar.", "Trabalho assalariado por lazer.", "Produtos agrícolas por escravos.", "Votos por favores políticos."],
+          correta: 1,
+        },
+        {
+          disciplina: "Geografia - Geopolítica",
+          enunciado: "O que define um 'Estado-Nação'?",
+          alternativas: ["Apenas um território sem povo.", "Um território com soberania, governo e identidade nacional.", "Qualquer grupo de pessoas sem terra.", "Apenas o governo, sem o povo.", "Um tratado comercial."],
+          correta: 1,
+        },
+        {
+          disciplina: "Filosofia - Pré-Socráticos",
+          enunciado: "Qual era a principal busca dos filósofos pré-socráticos?",
+          alternativas: ["A ética política.", "A essência e o princípio (arché) da natureza (physis).", "A democracia parlamentar.", "A salvação da alma.", "A escrita de leis."],
+          correta: 1,
+        },
+        {
+          disciplina: "História - Brasil República",
+          enunciado: "A 'Era Vargas' (1930-1945) foi marcada, em seu final, pelo golpe que instituiu o período conhecido como:",
+          alternativas: ["Estado Novo.", "República Velha.", "Ditadura Militar.", "Nova República.", "Brasil Império."],
+          correta: 0,
+        },
+        {
+          disciplina: "Geografia - População",
+          enunciado: "O que é o 'Efeito Migratório'?",
+          alternativas: ["O aumento da taxa de natalidade.", "O deslocamento populacional entre espaços geográficos.", "O crescimento natural da população.", "A diminuição da mortalidade.", "A urbanização desordenada."],
+          correta: 1,
+        },
+        {
+          disciplina: "Sociologia - Movimentos Sociais",
+          enunciado: "Movimentos sociais são ações coletivas voltadas para:",
+          alternativas: ["O lucro das grandes empresas.", "A manutenção do status quo.", "Transformações sociais ou defesa de direitos de grupos.", "Apenas a conquista de cargos públicos.", "A destruição da cultura local."],
+          correta: 2,
+        },
+        // 20 QUESTÕES - PADRÃO VESTIBULARES PÚBLICOS (NATUREZA E MATEMÁTICA)
+        {
+          disciplina: "Matemática - Logaritmos (FUVEST)",
+          enunciado: "Se log₂ x = 5, então o valor de x é:",
+          alternativas: ["10", "25", "32", "64", "128"],
+          correta: 2,
+        },
+        {
+          disciplina: "Física - Cinemática (UNICAMP)",
+          enunciado: "Um objeto em queda livre (desprezando a resistência do ar) parte do repouso. Após 3 segundos, sua velocidade é de aproximadamente (g = 10 m/s²):",
+          alternativas: ["10 m/s", "20 m/s", "30 m/s", "40 m/s", "50 m/s"],
+          correta: 2,
+        },
+        {
+          disciplina: "Química - Termoquímica (ENEM/Vestibular)",
+          enunciado: "Uma reação química que libera calor para o meio ambiente é classificada como:",
+          alternativas: ["Endotérmica", "Exotérmica", "Catalisada", "Isotérmica", "Adiabática"],
+          correta: 1,
+        },
+        {
+          disciplina: "Biologia - Genética (FUVEST)",
+          enunciado: "Na proporção mendeliana de um cruzamento monoíbrido (Aa x Aa), qual a probabilidade de obter um descendente homozigoto recessivo (aa)?",
+          alternativas: ["1/4", "1/2", "3/4", "1/8", "1"],
+          correta: 0,
+        },
+        {
+          disciplina: "Matemática - Trigonometria",
+          enunciado: "Qual o valor de sen(30º)?",
+          alternativas: ["1/2", "√2/2", "√3/2", "1", "0"],
+          correta: 0,
+        },
+        {
+          disciplina: "Física - Ondulatória",
+          enunciado: "A frequência de uma onda é 10 Hz. Qual o seu período (tempo de um ciclo)?",
+          alternativas: ["10 s", "1 s", "0,5 s", "0,1 s", "0,01 s"],
+          correta: 3,
+        },
+        {
+          disciplina: "Química - Ligações Químicas",
+          enunciado: "A ligação que ocorre pelo compartilhamento de pares de elétrons entre átomos é chamada de:",
+          alternativas: ["Iônica", "Metálica", "Covalente", "Ponte de Hidrogênio", "Dipolo-Induzido"],
+          correta: 2,
+        },
+        {
+          disciplina: "Biologia - Citologia",
+          enunciado: "Qual organela é responsável pela respiração celular e produção de ATP?",
+          alternativas: ["Ribossomo", "Lisossomo", "Mitocôndria", "Complexo de Golgi", "Cloroplasto"],
+          correta: 2,
+        },
+        {
+          disciplina: "Matemática - Geometria Espacial",
+          enunciado: "O volume de um cilindro é dado por V = πr²h. Se o raio for 2 cm e a altura 5 cm, o volume é:",
+          alternativas: ["10π cm³", "20π cm³", "40π cm³", "5π cm³", "100π cm³"],
+          correta: 1,
+        },
+        {
+          disciplina: "Física - Eletrodinâmica",
+          enunciado: "A Primeira Lei de Ohm é expressa pela fórmula:",
+          alternativas: ["P = V.i", "U = R.i", "F = m.a", "E = m.c²", "Q = n.e"],
+          correta: 1,
+        },
+        {
+          disciplina: "Química - Radioatividade",
+          enunciado: "Qual partícula é emitida em um decaimento alfa (α)?",
+          alternativas: ["Elétron", "Próton", "Núcleo de Hélio (2 prótons, 2 nêutrons)", "Raios X", "Nêutron"],
+          correta: 2,
+        },
+        {
+          disciplina: "Biologia - Zoologia",
+          enunciado: "Qual característica define o filo Chordata?",
+          alternativas: ["Presença de exoesqueleto de quitina", "Presença de notocorda em alguma fase da vida", "Corpo segmentado em metâmeros", "Sistema circulatório aberto", "Ausência de tecidos verdadeiros"],
+          correta: 1,
+        },
+        {
+          disciplina: "Matemática - Análise Combinatória",
+          enunciado: "De quantas formas podemos organizar 3 livros em uma estante?",
+          alternativas: ["3", "6", "9", "12", "15"],
+          correta: 1,
+        },
+        {
+          disciplina: "Física - Estática",
+          enunciado: "Um corpo está em equilíbrio de translação quando a soma das forças que atuam sobre ele é:",
+          alternativas: ["Máxima", "Variável", "Zero", "Positiva", "Negativa"],
+          correta: 2,
+        },
+        {
+          disciplina: "Química - Ácidos e Bases",
+          enunciado: "Uma solução com pH = 3 é considerada:",
+          alternativas: ["Ácida", "Básica (alcalina)", "Neutra", "Salina", "Apolar"],
+          correta: 0,
+        },
+        {
+          disciplina: "Biologia - Ecossistemas",
+          enunciado: "O processo de sucessão ecológica primária inicia-se com:",
+          alternativas: ["Espécies pioneiras (ex: liquens)", "Árvores de grande porte", "Animais carnívoros", "Plantas herbáceas", "Decompositores de grande porte"],
+          correta: 0,
+        },
+        {
+          disciplina: "Matemática - Equações",
+          enunciado: "As raízes da equação x² - 5x + 6 = 0 são:",
+          alternativas: ["1 e 5", "2 e 3", "-2 e -3", "1 e 6", "0 e 5"],
+          correta: 1,
+        },
+        {
+          disciplina: "Física - Hidrostática",
+          enunciado: "O Princípio de Arquimedes explica que um corpo imerso em um fluido recebe uma força vertical para cima igual ao peso do fluido deslocado. Essa força é o:",
+          alternativas: ["Peso", "Empuxo", "Pressão", "Tensão", "Atrito"],
+          correta: 1,
+        },
+        {
+          disciplina: "Química - Orgânica",
+          enunciado: "Qual é a função orgânica caracterizada pelo grupo -OH ligado a um carbono saturado?",
+          alternativas: ["Aldeído", "Cetona", "Álcool", "Ácido carboxílico", "Éter"],
+          correta: 2,
+        },
+        {
+          disciplina: "Biologia - Fisiologia Humana",
+          enunciado: "Qual hormônio é responsável por regular os níveis de glicose no sangue, facilitando sua entrada nas células?",
+          alternativas: ["Adrenalina", "Insulina", "Tiroxina", "Estrogênio", "Testosterona"],
+          correta: 1,
+        },
+        // 20 QUESTÕES - PADRÃO VESTIBULARES PÚBLICOS (CIÊNCIAS HUMANAS)
+        {
+          disciplina: "História - Antiguidade Clássica (FUVEST)",
+          enunciado: "Sobre a expansão romana no Mediterrâneo, é correto afirmar que:",
+          alternativas: ["Foi um processo pacífico de integração cultural.", "Gerou o fortalecimento da pequena propriedade camponesa.", "Provocou a crise do sistema escravista devido à escassez de mão de obra.", "Enriqueceu a elite patrícia e aumentou a concentração de terras.", "Foi motivada exclusivamente por interesses religiosos."],
+          correta: 3,
+        },
+        {
+          disciplina: "Geografia - Geopolítica (UNICAMP)",
+          enunciado: "O conceito de 'Estado-Nação' pressupõe:",
+          alternativas: ["A existência de um governo sem território.", "Uma organização política soberana que coincide com uma comunidade cultural.", "A ausência de fronteiras físicas definidas.", "O domínio de várias nações por um único poder absoluto.", "A inexistência de um sistema jurídico central."],
+          correta: 1,
+        },
+        {
+          disciplina: "Sociologia - Indústria Cultural (ENEM)",
+          enunciado: "Para Adorno e Horkheimer, a Indústria Cultural é um instrumento de:",
+          alternativas: ["Emancipação intelectual do indivíduo.", "Padronização do consumo e alienação social.", "Promoção exclusiva de arte vanguardista.", "Fortalecimento das culturas folclóricas locais.", "Desenvolvimento do pensamento crítico popular."],
+          correta: 1,
+        },
+        {
+          disciplina: "Filosofia - Ética (FUVEST)",
+          enunciado: "Para Kant, o Imperativo Categórico é o princípio de uma ética baseada em:",
+          alternativas: ["Sentimentos e emoções passageiras.", "Na vontade de poder (Nietzsche).", "No dever, orientado pela razão universal.", "Na utilidade prática imediata.", "No consentimento da maioria."],
+          correta: 2,
+        },
+        {
+          disciplina: "História - Idade Média",
+          enunciado: "A relação de suserania e vassalagem, central no feudalismo, baseava-se em:",
+          alternativas: ["Contratos de trabalho assalariado.", "Obrigações de fidelidade e auxílio militar mútuo.", "Igualdade social absoluta.", "Comércio monetário internacional.", "Submissão total à burguesia comercial."],
+          correta: 1,
+        },
+        {
+          disciplina: "Geografia - Urbanização",
+          enunciado: "A gentrificação é um processo urbano que se caracteriza por:",
+          alternativas: ["Melhoria da infraestrutura para os antigos moradores de baixa renda.", "Aumento do valor imobiliário que expulsa a população original de áreas centrais.", "Expansão desordenada de favelas.", "Fim do transporte público.", "Criação de parques em áreas industriais desativadas."],
+          correta: 1,
+        },
+        {
+          disciplina: "Sociologia - Poder (Weber)",
+          enunciado: "Segundo Max Weber, a dominação racional-legal baseia-se em:",
+          alternativas: ["Carisma pessoal do líder.", "Tradição e costumes ancestrais.", "Leis e regulamentos impessoais.", "Força física bruta.", "Vontade divina."],
+          correta: 2,
+        },
+        {
+          disciplina: "História - Brasil Colônia",
+          enunciado: "A economia açucareira no Nordeste colonial era estruturada pelo sistema de plantation, definido por:",
+          alternativas: ["Pequenas propriedades e policultura.", "Monocultura, latifúndio e mão de obra escravizada.", "Trabalho livre e assalariado.", "Produção voltada apenas para o consumo local.", "Ausência de capital estrangeiro."],
+          correta: 1,
+        },
+        {
+          disciplina: "Filosofia - Contratualismo (Locke)",
+          enunciado: "Para John Locke, os direitos naturais inalienáveis do homem são:",
+          alternativas: ["Vida, liberdade e propriedade.", "Apenas o direito de voto.", "O dever de obedecer ao monarca.", "A busca pela riqueza financeira.", "A igualdade material absoluta."],
+          correta: 0,
+        },
+        {
+          disciplina: "Geografia - Climatologia",
+          enunciado: "O fenômeno das Ilhas de Calor é provocado principalmente por:",
+          alternativas: ["Baixa concentração de construções e asfalto.", "Excesso de áreas verdes em centros urbanos.", "Substituição da cobertura vegetal por materiais que retêm calor.", "Aumento da umidade relativa do ar.", "Redução da emissão de gases poluentes."],
+          correta: 2,
+        },
+        {
+          disciplina: "História - Revolução Francesa",
+          enunciado: "O lema 'Liberdade, Igualdade, Fraternidade' sintetiza os ideais do:",
+          alternativas: ["Absolutismo monárquico.", "Liberalismo e Iluminismo.", "Feudalismo medieval.", "Socialismo soviético.", "Capitalismo contemporâneo."],
+          correta: 1,
+        },
+        {
+          disciplina: "Sociologia - Cultura (Bourdieu)",
+          enunciado: "O conceito de 'Capital Cultural' em Bourdieu refere-se a:",
+          alternativas: ["Dinheiro acumulado em conta bancária.", "Conhecimentos, hábitos e disposições adquiridos pelo indivíduo.", "Poder político exercido pelo Estado.", "Quantidade de máquinas numa indústria.", "Acesso exclusivo a tecnologia digital."],
+          correta: 1,
+        },
+        {
+          disciplina: "História - Era Vargas",
+          enunciado: "O período do 'Estado Novo' (1937-1945) foi marcado por:",
+          alternativas: ["Ampla liberdade democrática.", "Centralização do poder e censura.", "Controle total do Parlamento.", "Aliança com países socialistas.", "Abolição de qualquer regulamentação trabalhista."],
+          correta: 1,
+        },
+        {
+          disciplina: "Filosofia - Sócrates",
+          enunciado: "A 'maiêutica' socrática consiste em:",
+          alternativas: ["Impor verdades aos alunos.", "Um método de diálogo para extrair o conhecimento do interlocutor.", "Apenas o estudo da natureza.", "A crença de que nada se pode saber.", "Um exercício físico de meditação."],
+          correta: 1,
+        },
+        {
+          disciplina: "Geografia - Geopolítica",
+          enunciado: "A desintegração da União Soviética, em 1991, resultou em:",
+          alternativas: ["Fortalecimento do pacto militar de Varsóvia.", "Fim da Guerra Fria e nova ordem mundial.", "Reunificação total da Alemanha com a Rússia.", "Expansão do comunismo global.", "Declínio imediato do capitalismo europeu."],
+          correta: 1,
+        },
+        {
+          disciplina: "Sociologia - Globalização",
+          enunciado: "A 'Aldeia Global', conceito de Marshall McLuhan, relaciona-se com:",
+          alternativas: ["O isolamento das culturas locais.", "O impacto das tecnologias de informação na compressão espaço-tempo.", "A volta aos sistemas tribais de produção.", "A proibição do comércio internacional.", "A eliminação de todas as fronteiras nacionais."],
+          correta: 1,
+        },
+        {
+          disciplina: "História - Iluminismo",
+          enunciado: "O enciclopedismo iluminista tinha como objetivo:",
+          alternativas: ["Controlar o acesso ao saber pela Igreja.", "Sistematizar o conhecimento humano baseado na razão.", "Proibir a leitura de livros científicos.", "Limitar o progresso técnico.", "Manter a tradição oral absoluta."],
+          correta: 1,
+        },
+        {
+          disciplina: "Geografia - Meio Ambiente",
+          enunciado: "O Protocolo de Kyoto foi um marco internacional voltado para:",
+          alternativas: ["A proibição da pesca em alto mar.", "A redução da emissão de gases do efeito estufa.", "O controle da imigração ilegal.", "A proteção do patrimônio cultural.", "O incentivo à mineração predatória."],
+          correta: 1,
+        },
+        {
+          disciplina: "Filosofia - Existencialismo",
+          enunciado: "Para Jean-Paul Sartre, o ser humano está 'condenado a ser livre'. Isso implica:",
+          alternativas: ["Responsabilidade total pelas próprias escolhas.", "Inexistência de liberdade individual.", "Subordinação ao destino.", "A existência é pré-determinada por Deus.", "O homem não tem controle sobre seus atos."],
+          correta: 0,
+        },
+        {
+          disciplina: "História - Brasil República",
+          enunciado: "O movimento conhecido como 'Revolução de 1930' marcou:",
+          alternativas: ["O fim da era das oligarquias do café com leite.", "O retorno do regime imperial.", "A vitória da aristocracia rural paulista.", "A independência definitiva de Portugal.", "A proibição do voto feminino."],
+          correta: 0,
+        },
+        // 25 QUESTÕES - LINGUAGENS E MATEMÁTICA (PADRÃO VESTIBULARES PÚBLICOS)
+        
+        // --- LINGUAGENS (PORTUGUÊS, LITERATURA E ARTES) ---
+        {
+          disciplina: "Linguagens - Literatura (Modernismo)",
+          enunciado: "Qual obra de Oswald de Andrade propôs a 'devoração' da cultura estrangeira para criar uma identidade nacional?",
+          alternativas: ["Memórias Póstumas de Brás Cubas.", "Macunaíma.", "Manifesto Antropófago.", "Iracema.", "Os Sertões."],
+          correta: 2,
+        },
+        {
+          disciplina: "Linguagens - Artes",
+          enunciado: "O Barroco mineiro, representado por Aleijadinho, caracteriza-se por:",
+          alternativas: ["Minimalismo e linhas retas.", "Excesso de ornamentação, dramaticidade e religiosidade.", "Uso exclusivo de materiais industriais.", "Abstração geométrica.", "Ênfase na cultura pagã."],
+          correta: 1,
+        },
+        {
+          disciplina: "Linguagens - Gramática",
+          enunciado: "Na frase 'Os alunos estudaram muito, mas não passaram', a conjunção 'mas' estabelece uma relação de:",
+          alternativas: ["Adição.", "Conclusão.", "Oposição (adversativa).", "Explicação.", "Finalidade."],
+          correta: 2,
+        },
+        {
+          disciplina: "Linguagens - Interpretação",
+          enunciado: "O que é uma 'metáfora'?",
+          alternativas: ["Uma comparação explícita com 'como'.", "Uma substituição de um termo por outro com base em semelhança implícita.", "O uso de uma palavra pelo seu oposto.", "A repetição de sons vocálicos.", "O uso de termos técnicos."],
+          correta: 1,
+        },
+        {
+          disciplina: "Linguagens - Literatura (Realismo)",
+          enunciado: "Machado de Assis, em 'Memórias Póstumas de Brás Cubas', inova na literatura brasileira ao utilizar:",
+          alternativas: ["Narrativa linear e otimista.", "Foco no herói romântico.", "Narrador defunto, ironia e metalinguagem.", "Linguagem simples e coloquial.", "Foco em temas rurais."],
+          correta: 2,
+        },
+        {
+          disciplina: "Linguagens - Artes",
+          enunciado: "Qual movimento artístico do início do século XX valorizava a velocidade, as máquinas e a tecnologia?",
+          alternativas: ["Futurismo.", "Cubismo.", "Dadaísmo.", "Surrealismo.", "Expressionismo."],
+          correta: 0,
+        },
+        {
+          disciplina: "Linguagens - Gramática",
+          enunciado: "Qual a função da crase em: 'Vou à escola'?",
+          alternativas: ["Indicação de tempo futuro.", "Fusão da preposição 'a' com o artigo 'a'.", "Ênfase na palavra escola.", "Substituição de um verbo.", "Uso obrigatório antes de nomes próprios."],
+          correta: 1,
+        },
+        {
+          disciplina: "Linguagens - Literatura (Romantismo)",
+          enunciado: "O Romantismo brasileiro na sua primeira fase (indianista) tinha como foco:",
+          alternativas: ["A crítica social urbana.", "A exaltação da pátria e a figura do indígena como herói nacional.", "A negação da existência do Brasil.", "O uso de linguagem rebuscada científica.", "O foco na burguesia industrial."],
+          correta: 1,
+        },
+        {
+          disciplina: "Linguagens - Interpretação",
+          enunciado: "Uma função apelativa da linguagem tem como objetivo:",
+          alternativas: ["Transmitir informações objetivas.", "Focar no código.", "Convencer ou persuadir o receptor.", "Expressar emoções do emissor.", "Enfatizar a estética da mensagem."],
+          correta: 2,
+        },
+        {
+          disciplina: "Linguagens - Literatura",
+          enunciado: "Quem é o autor de 'Grande Sertão: Veredas'?",
+          alternativas: ["Jorge Amado.", "Graciliano Ramos.", "Guimarães Rosa.", "Clarice Lispector.", "Drummond de Andrade."],
+          correta: 2,
+        },
+        {
+          disciplina: "Linguagens - Artes",
+          enunciado: "O Cubismo, liderado por Picasso, buscou representar:",
+          alternativas: ["A realidade de forma fotográfica.", "A decomposição dos objetos em planos geométricos.", "Apenas o mundo dos sonhos.", "A velocidade das cidades.", "A pureza da natureza."],
+          correta: 1,
+        },
+        {
+          disciplina: "Linguagens - Gramática",
+          enunciado: "Em 'O livro foi lido pelo aluno', temos um exemplo de:",
+          alternativas: ["Voz ativa.", "Voz passiva.", "Voz reflexiva.", "Verbo de ligação.", "Orações coordenadas."],
+          correta: 1,
+        },
+        {
+          disciplina: "Linguagens - Literatura",
+          enunciado: "O 'Quarto de Despejo', de Carolina Maria de Jesus, é um exemplo de:",
+          alternativas: ["Romance fantástico.", "Diário de uma catadora de papel relatando a vida na favela.", "Poesia épica.", "Ensaio filosófico puro.", "Conto de fadas."],
+          correta: 1,
+        },
+        
+        // --- MATEMÁTICA ---
+        {
+          disciplina: "Matemática - Geometria Analítica",
+          enunciado: "Qual é a distância entre os pontos A(0,0) e B(3,4)?",
+          alternativas: ["3", "4", "5", "7", "1"],
+          correta: 2,
+        },
+        {
+          disciplina: "Matemática - Logaritmos",
+          enunciado: "Quanto vale log₁₀ 100?",
+          alternativas: ["1", "2", "10", "20", "0"],
+          correta: 1,
+        },
+        {
+          disciplina: "Matemática - Progressão Aritmética (PA)",
+          enunciado: "Qual o 10º termo da PA (2, 5, 8...)?",
+          alternativas: ["20", "25", "29", "30", "32"],
+          correta: 2,
+        },
+        {
+          disciplina: "Matemática - Funções",
+          enunciado: "Onde o gráfico da função f(x) = x - 3 corta o eixo x?",
+          alternativas: ["(0, 3)", "(3, 0)", "(0, -3)", "(-3, 0)", "(1, 0)"],
+          correta: 1,
+        },
+        {
+          disciplina: "Matemática - Estatística",
+          enunciado: "O que é a mediana de uma sequência de números?",
+          alternativas: ["A soma de todos os valores.", "O valor que ocorre com mais frequência.", "O valor central quando a série está em ordem.", "O valor máximo.", "A diferença entre o maior e o menor."],
+          correta: 2,
+        },
+        {
+          disciplina: "Matemática - Trigonometria",
+          enunciado: "Em um triângulo retângulo, a relação sen(θ) é:",
+          alternativas: ["Cateto adjacente / Hipotenusa.", "Cateto oposto / Cateto adjacente.", "Cateto oposto / Hipotenusa.", "Hipotenusa / Cateto oposto.", "Cateto adjacente / Cateto oposto."],
+          correta: 2,
+        },
+        {
+          disciplina: "Matemática - Matrizes",
+          enunciado: "O determinante de uma matriz identidade 2x2 é:",
+          alternativas: ["0", "1", "2", "-1", "4"],
+          correta: 1,
+        },
+        {
+          disciplina: "Matemática - Geometria Plana",
+          enunciado: "Qual é o perímetro de um quadrado de lado 5 cm?",
+          alternativas: ["5 cm", "10 cm", "20 cm", "25 cm", "15 cm"],
+          correta: 2,
+        },
+        {
+          disciplina: "Matemática - Probabilidade",
+          enunciado: "Qual a chance de tirar 'coroa' ao lançar uma moeda honesta?",
+          alternativas: ["1/4", "1/2", "3/4", "1", "0"],
+          correta: 1,
+        },
+        {
+          disciplina: "Matemática - Exponencial",
+          enunciado: "Quanto é 2³ * 2²?",
+          alternativas: ["2⁵", "2⁶", "4⁵", "2¹", "4⁶"],
+          correta: 0,
+        },
+        {
+          disciplina: "Matemática - Polinômios",
+          enunciado: "O grau do polinômio P(x) = x³ + 2x² + 5 é:",
+          alternativas: ["1", "2", "3", "5", "6"],
+          correta: 2,
+        },
+        {
+          disciplina: "Matemática - Razão",
+          enunciado: "Se 3kg de carne custam R$ 60,00, quanto custam 5kg?",
+          alternativas: ["R$ 80,00", "R$ 90,00", "R$ 100,00", "R$ 120,00", "R$ 75,00"],
+          correta: 2,
+        },
+        // AS ÚLTIMAS 25 QUESTÕES (TOTALIZANDO 180)
+        {
+          disciplina: "Física - Termodinâmica",
+          enunciado: "Qual a lei da termodinâmica que estabelece a impossibilidade de se construir uma máquina térmica com rendimento de 100%?",
+          alternativas: ["0ª Lei", "1ª Lei", "2ª Lei", "3ª Lei", "Lei de Joule"],
+          correta: 2,
+        },
+        {
+          disciplina: "Química - Orgânica",
+          enunciado: "Qual é o nome do hidrocarboneto de fórmula C₃H₈?",
+          alternativas: ["Metano", "Etano", "Propano", "Butano", "Pentano"],
+          correta: 2,
+        },
+        {
+          disciplina: "Biologia - Genética",
+          enunciado: "O que é um organismo transgênico?",
+          alternativas: ["Um organismo criado por cruzamento natural.", "Um organismo que recebeu material genético de outra espécie.", "Um organismo clonado de uma célula adulta.", "Um organismo com mutação espontânea.", "Um organismo que sofreu seleção artificial."],
+          correta: 1,
+        },
+        {
+          disciplina: "Matemática - Análise Combinatória",
+          enunciado: "Quantos anagramas possui a palavra 'SOL'?",
+          alternativas: ["3", "4", "5", "6", "9"],
+          correta: 3,
+        },
+        {
+          disciplina: "Física - Óptica",
+          enunciado: "Um espelho côncavo, quando um objeto é colocado entre o foco e o vértice, forma uma imagem:",
+          alternativas: ["Real, invertida e menor.", "Real, invertida e maior.", "Virtual, direita e maior.", "Virtual, invertida e menor.", "Imprópria."],
+          correta: 2,
+        },
+        {
+          disciplina: "Química - Equilíbrio",
+          enunciado: "O Princípio de Le Chatelier diz que, ao aumentar a pressão em um sistema gasoso em equilíbrio:",
+          alternativas: ["O sistema não reage.", "O equilíbrio desloca-se para o lado de maior volume.", "O equilíbrio desloca-se para o lado de menor volume.", "A constante de equilíbrio muda.", "A temperatura diminui."],
+          correta: 2,
+        },
+        {
+          disciplina: "Biologia - Ecologia",
+          enunciado: "O que é o fenômeno da 'Eutrofização' em corpos d'água?",
+          alternativas: ["Aumento da oxigenação.", "Proliferação excessiva de algas devido ao excesso de nutrientes.", "Aumento da biodiversidade de peixes.", "Diminuição da temperatura da água.", "Limpeza natural da água."],
+          correta: 1,
+        },
+        {
+          disciplina: "Matemática - Geometria Espacial",
+          enunciado: "Qual a fórmula do volume de uma esfera?",
+          alternativas: ["πr²h", "4/3 πr³", "base * altura", "l³", "πr²"],
+          correta: 1,
+        },
+        {
+          disciplina: "Física - Eletromagnetismo",
+          enunciado: "O que diz a Lei de Faraday-Neumann?",
+          alternativas: ["Cargas iguais se repelem.", "Uma corrente elétrica gera um campo magnético.", "Um campo magnético variável induz uma força eletromotriz.", "A força é proporcional à distância.", "A carga é conservada."],
+          correta: 2,
+        },
+        {
+          disciplina: "Química - Estequiometria",
+          enunciado: "Qual o volume ocupado por 1 mol de qualquer gás nas CNTP?",
+          alternativas: ["11,2 L", "22,4 L", "44,8 L", "10 L", "1 L"],
+          correta: 1,
+        },
+        {
+          disciplina: "Biologia - Botânica",
+          enunciado: "Qual tecido vegetal é responsável pelo transporte de seiva elaborada?",
+          alternativas: ["Xilema", "Floema", "Epiderme", "Parênquima", "Meristema"],
+          correta: 1,
+        },
+        {
+          disciplina: "Matemática - Funções",
+          enunciado: "Qual é o vértice da parábola da função f(x) = x² - 4x + 3?",
+          alternativas: ["(1, 0)", "(2, -1)", "(0, 3)", "(4, 3)", "(-1, 8)"],
+          correta: 1,
+        },
+        {
+          disciplina: "Física - Movimento Circular",
+          enunciado: "A velocidade angular é definida como:",
+          alternativas: ["Δs/Δt", "Δθ/Δt", "v/r", "a * r", "2π * f"],
+          correta: 1,
+        },
+        {
+          disciplina: "Química - Átomos",
+          enunciado: "O princípio de exclusão de Pauli afirma que:",
+          alternativas: ["Dois elétrons não podem ter o mesmo conjunto de números quânticos.", "Os elétrons ocupam primeiro os orbitais de menor energia.", "Não se pode saber posição e velocidade ao mesmo tempo.", "Os prótons estão no núcleo.", "Os orbitais são esféricos."],
+          correta: 0,
+        },
+        {
+          disciplina: "Biologia - Fisiologia",
+          enunciado: "Qual é o papel das plaquetas no sangue?",
+          alternativas: ["Transportar oxigênio.", "Defesa imunológica.", "Coagulação sanguínea.", "Transportar nutrientes.", "Regular o pH."],
+          correta: 2,
+        },
+        {
+          disciplina: "Matemática - Sequências",
+          enunciado: "Na sequência de Fibonacci (1, 1, 2, 3, 5...), qual é o próximo termo?",
+          alternativas: ["6", "7", "8", "9", "10"],
+          correta: 2,
+        },
+        {
+          disciplina: "Física - Ondulatória",
+          enunciado: "Qual a relação correta entre velocidade (v), frequência (f) e comprimento de onda (λ)?",
+          alternativas: ["v = f + λ", "v = λ / f", "v = f * λ", "f = v * λ", "λ = v * f"],
+          correta: 2,
+        },
+        {
+          disciplina: "Química - Bioquímica",
+          enunciado: "As proteínas são formadas pela união de unidades menores chamadas:",
+          alternativas: ["Glicose", "Ácidos graxos", "Aminoácidos", "Nucleotídeos", "Vitaminas"],
+          correta: 2,
+        },
+        {
+          disciplina: "Biologia - Evolução",
+          enunciado: "O que é 'especiação alopátrica'?",
+          alternativas: ["Evolução sem isolamento.", "Evolução causada por isolamento geográfico.", "Evolução causada por mutação apenas.", "Extinção em massa.", "Seleção artificial."],
+          correta: 1,
+        },
+        {
+          disciplina: "Matemática - Geometria Analítica",
+          enunciado: "A equação reduzida da reta é y = mx + n. O coeficiente 'm' representa:",
+          alternativas: ["O ponto de corte no eixo y.", "A inclinação da reta.", "A raiz da função.", "O ponto de corte no eixo x.", "O volume."],
+          correta: 1,
+        },
+        {
+          disciplina: "Física - Relatividade",
+          enunciado: "Na equação E = mc², o que 'c' representa?",
+          alternativas: ["Capacidade térmica.", "Constante gravitacional.", "Velocidade da luz no vácuo.", "Carga elétrica.", "Comprimento."],
+          correta: 2,
+        },
+        {
+          disciplina: "Química - Tabela Periódica",
+          enunciado: "Os elementos da família 18 (Gases Nobres) são caracterizados por:",
+          alternativas: ["Alta reatividade.", "Tendência a perder elétrons.", "Camada de valência completa (estabilidade).", "Serem todos líquidos.", "Serem todos metais."],
+          correta: 2,
+        },
+        {
+          disciplina: "Biologia - Citologia",
+          enunciado: "O que caracteriza uma célula procarionte?",
+          alternativas: ["Presença de núcleo definido.", "Presença de organelas membranosas.", "Ausência de núcleo organizado e organelas membranosas.", "Presença de parede celular apenas.", "Ser exclusivamente pluricelular."],
+          correta: 2,
+        },
+        {
+          disciplina: "Matemática - Álgebra",
+          enunciado: "Qual é o valor de x na equação 3ˣ = 81?",
+          alternativas: ["2", "3", "4", "5", "6"],
+          correta: 2,
+        },
+        {
+          disciplina: "Física - Mecânica",
+          enunciado: "O Teorema do Trabalho e Energia Cinética diz que o trabalho resultante é igual à:",
+          alternativas: ["Variação da energia potencial.", "Variação da energia cinética.", "Energia total.", "Força média.", "Potência."],
+          correta: 1,
+        },
+        // [INSERIR NO BANCO - INGLÊS E ESPANHOL AVANÇADO]
+[
+  { disciplina: "Inglês", enunciado: "The expression 'underscore' in 'The study underscores the need for...' means:", alternativas: ["Diminish", "Highlight", "Neglect", "Refute", "Question"], correta: 1 },
+  { disciplina: "Inglês", enunciado: "Which connector indicates a contrast in a formal essay?", alternativas: ["Nevertheless", "Furthermore", "Consequently", "Moreover", "In addition"], correta: 0 },
+  { disciplina: "Inglês", enunciado: "In the sentence 'Had I known, I would have acted differently', the structure indicates:", alternativas: ["Present unreal", "Past hypothetical", "Future certainty", "A command", "A request"], correta: 1 },
+  { disciplina: "Inglês", enunciado: "The term 'mitigate' is closest in meaning to:", alternativas: ["Aggravate", "Alleviate", "Accelerate", "Ignore", "Create"], correta: 1 },
+  { disciplina: "Inglês", enunciado: "Which word is a false cognate?", alternativas: ["Eventually (finalmente)", "Actual (real)", "Library (biblioteca)", "Data (dados)", "Education (educação)"], correta: 0 },
+  { disciplina: "Inglês", enunciado: "In academic writing, 'tenet' means:", alternativas: ["A belief or principle", "A small tent", "A type of test", "A time limit", "A temporary worker"], correta: 0 },
+  { disciplina: "Inglês", enunciado: "What is a 'gerund' in the sentence 'Smoking is prohibited'?", alternativas: ["Adjective", "Noun", "Verb", "Adverb", "Conjunction"], correta: 1 },
+  { disciplina: "Inglês", enunciado: "To 'elucidate' means:", alternativas: ["To confuse", "To clarify", "To hide", "To paint", "To delete"], correta: 1 },
+  { disciplina: "Inglês", enunciado: "The prefix 'pseudo-' usually means:", alternativas: ["True", "False", "Under", "Before", "After"], correta: 1 },
+  { disciplina: "Inglês", enunciado: "Which is a formal way to start a conclusion?", alternativas: ["So...", "In summary", "Like...", "Anyway...", "Look..."], correta: 1 },
+  { disciplina: "Inglês", enunciado: "The phrase 'take into account' means:", alternativas: ["Calculate", "Consider", "Ignore", "Buy", "Watch"], correta: 1 },
+  { disciplina: "Inglês", enunciado: "What is an 'appositive'?", alternativas: ["A verb", "A noun phrase renaming another", "A type of comma", "A formal letter", "A mistake"], correta: 1 },
+  { disciplina: "Inglês", enunciado: "What does 'unprecedented' mean?", alternativas: ["Never happened before", "Very common", "Expensive", "Old", "Beautiful"], correta: 0 },
+  { disciplina: "Inglês", enunciado: "The term 'hinder' means:", alternativas: ["Help", "Obstruct", "Improve", "Increase", "Study"], correta: 1 },
+  { disciplina: "Inglês", enunciado: "Which sentence is in the passive voice?", alternativas: ["He wrote the book.", "The book was written by him.", "He is writing.", "Write the book.", "He will write."], correta: 1 },
+  { disciplina: "Espanhol", enunciado: "¿Qué significa 'aunque' en un texto académico?", alternativas: ["A pesar de que", "Porque", "Entonces", "Además", "Sin embargo"], correta: 0 },
+  { disciplina: "Espanhol", enunciado: "¿Cuál es el significado de 'o sea'?", alternativas: ["Es decir", "Quizás", "Probablemente", "Nunca", "Ayer"], correta: 0 },
+  { disciplina: "Espanhol", enunciado: "¿Qué expresa el conector 'no obstante'?", alternativas: ["Adición", "Adversidad/Contraste", "Causa", "Tiempo", "Lugar"], correta: 1 },
+  { disciplina: "Espanhol", enunciado: "¿Cuál es la forma correcta del subjuntivo del verbo 'hacer' (tú)?", alternativas: ["Haces", "Hagas", "Hacia", "Hizo", "Harías"], correta: 1 },
+  { disciplina: "Espanhol", enunciado: "La palabra 'actualmente' en español significa:", alternativas: ["Now/At present", "Actually", "Suddenly", "Basically", "Really"], correta: 0 },
+  { disciplina: "Espanhol", enunciado: "¿Qué es un 'dicho'?", alternativas: ["Una verdad absoluta", "Una expresión popular", "Un error gramatical", "Un libro científico", "Un examen"], correta: 1 },
+  { disciplina: "Espanhol", enunciado: "El término 'sin embargo' indica:", alternativas: ["Continuidad", "Contraste", "Causa", "Finalidad", "Condición"], correta: 1 },
+  { disciplina: "Espanhol", enunciado: "¿Cómo se dice 'goleiro' en español?", alternativas: ["Portero", "Defensor", "Jugador", "Árbitro", "Entrenador"], correta: 0 },
+  { disciplina: "Espanhol", enunciado: "¿Cuál es el antónimo de 'subir'?", alternativas: ["Bajar", "Saltar", "Correr", "Caminar", "Volar"], correta: 0 },
+  { disciplina: "Espanhol", enunciado: "¿Qué indica la perífrasis 'tener que + infinitivo'?", alternativas: ["Duda", "Obligación", "Posibilidad", "Pasado", "Negación"], correta: 1 },
+  { disciplina: "Espanhol", enunciado: "¿Cómo se llama el grupo de palabras que comparten una raíz?", alternativas: ["Familia léxica", "Sinónimos", "Antónimos", "Verbos", "Adverbios"], correta: 0 },
+  { disciplina: "Espanhol", enunciado: "El término 'paulatino' significa:", alternativas: ["Rápido", "Gradual", "Grande", "Pequeño", "Falso"], correta: 1 },
+  { disciplina: "Espanhol", enunciado: "¿Qué expresa la conjunción 'puesto que'?", alternativas: ["Causa/Motivo", "Oposición", "Consecuencia", "Tiempo", "Concesión"], correta: 0 },
+  { disciplina: "Espanhol", enunciado: "¿Cómo se traduce 'cabelo' al español?", alternativas: ["Pelo/Cabello", "Cabeza", "Cejas", "Ojos", "Boca"], correta: 0 },
+  { disciplina: "Espanhol", enunciado: "¿Cuál es el significado de 'a menudo'?", alternativas: ["Frecuentemente", "Nunca", "A veces", "Casi nunca", "Siempre"], correta: 0 }
+]
       ];
+
+      
 
       // Variáveis de controle de jogo
       let questaoAtual = 0;
@@ -516,3 +1736,6 @@
       // Dá o pontapé inicial e roda o simulado assim que a página abre
       carregarQuestao();
     </script>
+    
+    </body>
+    </html>
