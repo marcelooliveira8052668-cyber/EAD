@@ -116,10 +116,21 @@
         width: 90%;
         max-width: 700px;
       }
+/* Isso força o rodapé a ficar sempre no final */
+html, body {
+  height: 100%;
+  margin: 0;
+}
 
-      footer{text-align: center; padding: 2px; color: #7f8c8d};
+.container-principal {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ocupa pelo menos a altura da tela */
+}
 
-      }
+footer {
+  margin-top: center; /* Empurra o rodapé para o final */
+}
     </style>
   </head>
   <body>
@@ -271,7 +282,7 @@
     </section>
 <script src="caminho/para/seu-arquivo-simulado.js"></script>
 <footer>
-  <p>&copy; 2026 Meu Site. Todos os direitos reservados.</p>
+  <p>&copy; 2026 Meu Site. Todos os direitos reservados ao Prof. Marcelo Oliveira</p>
 </footer>
   </body>
 </html>
